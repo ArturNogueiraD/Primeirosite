@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="horarioatendi.html">Horário de Atendimento</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <h2>Entre em contato</h2>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+            <p><strong>Celular/WhatsApp:</strong> (11) 91234-5678</p>
+            <p><strong>Endereço:</strong> Rua da Saúde, 123, Centro, Cidade XYZ, Estado</p>
+
+            <h3>Localização:</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.2896042348784!2d-122.0842494846912!3d37.421999779825335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e37f0c5e23%3A0xf54e94db7d28f8c0!2sGoogleplex!5e0!3m2!1sen!2sus!4v1637027558493!5m2!1sen!2sus" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+
+            <h3>Envie uma Mensagem</h3>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit" class="send-button">Enviar</button>
+                <button type="reset" class="clear-button">Limpar</button>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
